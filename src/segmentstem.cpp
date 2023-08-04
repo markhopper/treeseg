@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 		//
 		std::cout << "Segmenting extended cylinder: " << std::flush;
 		pcl::PointCloud<PointTreeseg>::Ptr volume(new pcl::PointCloud<PointTreeseg>);
-		float expansionfactor = 12;
+		float expansionfactor = 5;
 		cyl.rad = cyl.rad*expansionfactor;
 		spatial3DCylinderFilter(plot,cyl,volume);
 		ss.str("");
