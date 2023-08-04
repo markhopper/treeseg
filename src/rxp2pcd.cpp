@@ -67,10 +67,10 @@ int main(int argc, char **argv)
 		}
 	}
 	cfile.close();
-	float plot_xmin = coordfile[0] - 20;
-	float plot_xmax = coordfile[1] + 20;
-	float plot_ymin = coordfile[2] - 20;
-	float plot_ymax = coordfile[3] + 20;
+	float plot_xmin = coordfile[0] - 10;
+	float plot_xmax = coordfile[1] + 10;
+	float plot_ymin = coordfile[2] - 10;
+	float plot_ymax = coordfile[3] + 10;
 	float tile_area = std::stof(args[2]);
 	float tile_length = sqrt(tile_area);
 	int tile_count = 0;
