@@ -16,7 +16,7 @@ float maxcrown(float dbh)
 {
 	//m    -> 29.40 * dbh ^ 0.6524
 	//ci_u -> 30.36 * dbh ^ 0.6931
-	float extent = 30.36 * pow(dbh,0.6931) + 30; 
+	float extent = 30.36 * pow(dbh,0.6931); 
 	return extent;
 }
 
